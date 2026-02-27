@@ -1,8 +1,10 @@
-# nginx-proxy-samples
+# nginx-samples
 
 ## Introduction
 
 Helper scripts, templates and docker compose to quickly wire up a dockerized nginx proxy with ssl using jwilder/nginx-proxy etc
+
+nginx sample using prometheus-exporter 
 
 ## Powershell
 
@@ -18,6 +20,10 @@ Helper scripts, templates and docker compose to quickly wire up a dockerized ngi
 ## nginx
 
 - nginx/template.tmpl - sample nginx template
+
+## nginx-k8s
+
+- nginx-k8s/nginx-with-prometheus-exporter.yaml - k8s manifest to export prometheus metrics from nginx and prometheus scrape
 
 # References
 
